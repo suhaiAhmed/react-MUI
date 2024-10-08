@@ -1,9 +1,12 @@
-
-
+import Header from "./Components/header/header";
+import MainSection from "./Components/main/mainSection";
 
 function App() {
   return (
-    <h1></h1>
+    <>
+      <Header />
+      <MainSection />
+    </>
   );
 }
 
